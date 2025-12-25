@@ -1,13 +1,13 @@
 from .base_activity_model import BaseActivity
 
-from .activities_models.award_achievement import AwardAchievement
-from .activities_models.book_chapters import BookChapter
-from .activities_models.funded_project_proposal import FundedProjectProposal
-from .activities_models.guest_performance import GuestPerformance
 from .activities_models.international_conference import InternationalConference
 from .activities_models.journal_publications import JournalPublication
+from .activities_models.funded_project_proposal import FundedProjectProposal
+from .activities_models.book_chapters import BookChapter
+from .activities_models.event_attended import EventAttended
+from .activities_models.guest_performance import GuestPerformance
 from .activities_models.journal_reviewer import JournalReviewer
+from .activities_models.award_achievement import AwardAchievement
 from .activities_models.patents import Patent
 from .activities_models.professional_membership import ProfessionalMembership
-from .activities_models.event_attended import EventAttended
 
