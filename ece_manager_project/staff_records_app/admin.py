@@ -1,3 +1,5 @@
-from django.contrib import admin
 
-# Register your models here.
+from django.contrib import admin
+from .models_folder.activities_models.patents import Patent
+
+admin.site.register(Patent)  # Replace YourModelName with actual model names to register

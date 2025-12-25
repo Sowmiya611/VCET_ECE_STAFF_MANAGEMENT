@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Staff Dashboard</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        /* Left section (40%) */
+        .left-panel {
+            width: 40%;
+            background: #f0f0f0;
+            padding: 20px;
+        }
+
+        .profile-img {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .staff-info {
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        .buttons {
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .buttons a {
+            display: block;
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            margin: 10px 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Right section (60%) */
+        .right-panel {
+            width: 60%;
+            padding: 20px;
+            background: white;
+            position: relative;
+        }
+
+        .add-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: green;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+
+        .activities-box {
+            height: 90%;
+            overflow-y: scroll;
+            border: 1px solid #ccc;
+            padding: 15px;
+        }
+    </style>
+
+</head>
+<body>
+
+    {% block content %}
+    {% endblock %}
+
+</body>
+</html>
